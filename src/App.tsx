@@ -54,7 +54,7 @@ const App: FC = (): JSX.Element => {
           type="button"
           onClick={() =>
             reset({
-              age: '',
+              age: 0,
               name: '',
             })
           }
